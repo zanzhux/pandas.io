@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/login.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="login">
+        <h2>欢迎登录</h2>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <input type="text" id="username" placeholder="用户名">
+            <input type="password" id="password" placeholder="密码">
+            <input type="submit" value="登录">
+        </form>
+        <p>还没有账号？<a href="register.html">立即注册</a></p>
+    </div>
+    <script>
+        function validateForm() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+
+            if (username === "" || password === "") {
+                alert("用户名和密码不能为空");
+                return false; // 阻止表单提交
+            }
+
+            // 这里可以添加更多的验证逻辑，如检查用户名和密码的格式等
+
+            // 模拟登录成功后跳转到首页
+            alert("登录成功"); // 可以替换为实际的登录验证逻辑
+            window.location.href = "index.html"; // 用你的首页URL替换这里的"首页的URL"
+
+            return false; // 阻止表单提交，因为页面已经跳转
+        }
+    </script>
+</body>
+
+</html>

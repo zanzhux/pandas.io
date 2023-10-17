@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 设置背景图片 */
+body {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 设置登录表单样式 */
+.login {
+
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border: 1px solid #fff;
+    background-color: rgba(201, 200, 200, 0.541);
+}
+
+/* 设置表单标题样式 */
+.login h2 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #222222;
+}
+
+/* 设置输入框样式 */
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* 设置输入框悬停样式 */
+.login input[type="text"]:hover,
+.login input[type="password"]:hover {
+    background-color: #e8e8e8;
+}
+
+/* 设置登录按钮样式 */
+.login input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #979d37;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+/* 设置登录按钮悬停样式 */
+.login input[type="submit"]:hover {
+    background-color: #404310;
+}
+
+/* 设置表单底部链接样式 */
+.login p {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #555;
+}
+
+.login p a {
+    color: #979d37;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.login p a:hover {
+    color: #000000;
+}

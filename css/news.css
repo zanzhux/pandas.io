@@ -1,0 +1,161 @@
+section {
+    height: 1100px;
+
+}
+
+.sl {
+    float: left;
+    width: 680px;
+
+
+}
+
+.banner {
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 1200px;
+    height: 500px;
+}
+
+.tab {
+
+    width: 680px;
+    height: 230px;
+    border-radius: 10px;
+    background-color: #04730f;
+    color: #020202;
+    padding: 20px 10px;
+    margin: 20px 0;
+    color: #fff;
+
+}
+
+.tab h1 {
+    font-size: 30px;
+}
+
+.tab h3 {
+    color: #979794;
+    margin: 15px 0;
+    height: 50px;
+    font-weight: normal;
+
+}
+
+.title {
+    width: 250px;
+    margin: auto;
+
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 20px;
+
+}
+
+.title h1 {
+    margin: 20px 0;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 30px;
+    background-color: #045b1a;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 20px;
+    font-family: 'STCaiyun';
+    border-radius: 7px;
+    border: 3px solid #035d27;
+}
+
+.title a {
+    float: left;
+    color: #333;
+    font-size: 20px;
+    font-family: 'STCaiyun';
+}
+
+.title span {
+    float: right;
+    color: gray;
+}
+
+.slc {
+    color: rgb(64, 64, 64);
+
+}
+
+.shake {
+    animation: shake 0.5s;
+    animation-iteration-count: 3;
+}
+
+
+
+.slc p {
+    text-indent: 2em;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.slc h2 {
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+    margin: 25px 0;
+    font-family: 'STCaiyun';
+
+
+}
+
+.slc img {
+    width: 100%;
+    height: 500px;
+
+}
+
+.infos {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.sr {
+    float: right;
+    width: 450px;
+}
+
+.sr h1 {
+    font-size: 25px;
+}
+
+.sr img {
+    width: 100%;
+}
+
+.sr h1 {
+    margin: 20px 0;
+}
+
+#lines {
+    line-height: 60px;
+}
+
+.sr p {
+    height: 60px;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.sr span {
+    color: #1a4c02;
+    font-size: 50px;
+    float: left;
+    margin-right: 7px;
+    margin-right: 20px;
+}
