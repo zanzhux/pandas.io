@@ -1,235 +1,23 @@
-.background1 .center p {
+section {
+    height: 1200px;
+}
+
+section h1 {
+    margin: 20px 0;
     text-align: center;
-    color: white;
-    font-weight: lighter;
+    height: 50px;
+    border-bottom: 2px solid #372208;
 }
 
-header {
-    width: 1200px;
-    height: 550px;
-    margin: 0px auto;
-    position: relative;
-    overflow: hidden;
-
-
+.box {
+    height: 900px;
 }
 
-.pic_list {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 900%;
-}
-
-.pic_list li {
-    list-style: none;
-    float: left;
-    z-index: 999;
-    /* top: 350px;
-    left: 200px; */
-}
-
-.pic_list li img {
-    width: 1200px;
-    height: 550px;
-}
-
-.arr_l,
-.arr_r {
-    display: none;
-    position: absolute;
-    margin-top: -20px;
-    top: 50%;
-    width: 24px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    font-size: 18px;
-    color: #fff;
-    background-color: rgba(253, 253, 253, 0.3);
-    z-index: 3;
-}
-
-.arr_r {
-    right: 0;
-}
-
-.circle {
-    position: absolute;
-    bottom: 10px;
-    left: 50%;
-    margin-left: -21px;
-}
-
-.circle li {
-    float: left;
-    width: 8px;
-    height: 8px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
-    margin: 0 3px;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.current {
-    background-color: #fff;
-}
-
-#zzj {
-    width: 200px;
-    height: 60px;
-    border: 1px white solid;
-    margin: 0 auto;
-    margin-top: 60px;
-    color: white;
-    font-size: 46px;
-    text-align: center;
-    font-weight: lighter;
-    line-height: 60px;
-}
-
-.small {
-    width: 380px;
-    height: 430px;
-    margin-right: 20px;
-    display: inline-block;
-    overflow: hidden;
-}
-
-p {
-    font-family: 'STKaiti';
-}
-
-.small p {
-    font-size: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
-    margin-right: 20px;
-}
-
-.small span {
-    font-size: 16px;
-}
-
-.smaller img {
-    margin-top: 10px;
-
-}
-
-.smaller {
-    height: 140px;
-    width: 400px;
-    background-color: #FFFFFF;
-    margin-bottom: 4px;
-    display: inline-block;
-    padding-top: 20px;
-    padding-left: 20px;
-}
-
-.small p {
-    font-size: 12px;
-}
-
-.smallzi {
-    width: 280px;
-    height: 300px;
-    margin-left: 20px;
-    float: right;
-}
-
-.fix {
-    height: 100px;
-    width: 500px;
-    text-align: center;
-
-    margin: 0 auto;
-}
-
-
-.w {
-    width: 1200px;
-    margin: 0 auto;
-}
-
-.sixdate {
-    height: 348px;
-    width: 364px;
-    border: #666666 1px solid;
-    margin-right: 50px;
-    margin-bottom: 50px;
-    float: left;
-    overflow: hidden;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.sixdate span {
-    margin-left: 20px;
-    font-size: 16px;
-    line-height: 30px;
-    margin-top: 10px;
-    display: block;
-}
-
-.sixdate span:hover {
-    color: #000000;
-    cursor: pointer;
-    font-weight: 700;
-}
-
-.sixdate p {
-    color: #666666;
-    font-size: 16px;
-    line-height: 30px;
-    margin-left: 20px;
-}
-
-.sixdate img {
-    transition: all .3s;
-}
-
-.sixdate img:hover {
-    transform: rotate(30deg);
-}
-
-.residence {
-    width: 382px;
-    height: 350px;
-    overflow: hidden;
-    float: left;
-    margin-right: 27px;
-    margin-bottom: 27px;
-    position: relative;
-}
-
-.residence>.shadow {
-    width: 382px;
-    height: 140px;
-    position: absolute;
-    bottom: -140px;
-    background: rgba(0, 0, 0, 0.5);
-    transition: all .5s;
-}
-
-.residence:hover .shadow {
-    bottom: 0px;
-}
-
-.residence .shadow p {
-    font-size: 16px;
-    color: white;
-    margin-top: 20px;
-    margin-left: 20px;
-}
-
-.residence .shadow span {
-    font-size: 12px;
-    color: white;
-    margin-top: 10px;
-    line-height: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: block;
+.box h2 {
+    font-weight: 400;
+    margin: 10px 0;
+    color: rgb(5, 100, 34);
+    font-family: fangsong;
 }
 
 .banner img {
@@ -237,36 +25,23 @@ p {
     height: 500px;
 }
 
-.smaller img {
-    width: 80px;
-    height: 80px;
+.box h4 {
+    margin: 20px 0;
 }
 
-.video {
-    width: 555px;
-    height: 440px;
-    overflow: hidden;
+.box img {
+    width: 550px;
+    height: 380px;
+    border-radius: 30px;
+}
+
+.box img:nth-child(1) {
+
     float: left;
+    margin-right: 100px;
 }
 
-.sixdate img {
-    width: 340px;
-    height: 200px;
-}
-
-.video img {
-    display: inline-block;
-}
-
-.video p {
+.box p {
+    text-indent: 2em;
     line-height: 30px;
-    font-size: 20px;
-    color: #000000;
-    text-align: center;
-}
-
-.video svg {
-    position: relative;
-    left: 245px;
-    bottom: 240px;
 }
